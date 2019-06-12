@@ -1,0 +1,16 @@
+nav {
+    height: 68px;
+    background-color: antiquewhite;
+    padding-right: 30px;
+
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+
+}
+nav ul li a {
+    display: inline-block ;
+    height: 64px;
+    
+}
