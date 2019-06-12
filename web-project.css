@@ -1,0 +1,662 @@
+
+body{
+    font-family: 'Iranian Sans';
+    text-decoration: none;
+    
+
+
+}
+.dmain{
+    width: 100%;
+    color: #fff;
+    display: flex;
+    padding: 10px;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffc107;
+    direction: rtl;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 5;
+    font-weight: normal;
+}
+.a1{    
+        font-family: 'Iranian Sans';
+        color: #fff;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.5;
+        
+}
+.material-material-icons next-banner-button-icon {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 1;
+    letter-spacing: normal;
+    text-transform: none;
+    display: inline-block;
+    white-space: nowrap;
+    word-wrap: normal;
+    direction: ltr;
+    -webkit-font-smoothing: antialiased;
+}
+.next-banner-button {
+    color: rgba(0, 0, 0, 0.54);;
+    padding:  15px;
+    height: 10;
+    margin-right: 10px;
+    border-radius: 30px;
+    background-color: #fff;
+    overflow: hidden;
+    font-size: 0.75rem;
+    font-family: 'Iranian Sans';
+    min-width: 64px;
+    box-sizing: border-box;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms, border 250ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;
+    line-height: 1.75;
+    font-weight: 500;
+    text-transform: uppercase;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img1{
+    float: right;
+    width: 200px;
+    height: 91px;
+    margin-top:20px;
+    margin-right:-25px;
+}
+.d2{
+    box-sizing: border-box;
+    width: 100%;
+    height:50px;
+    color: #fff;
+    display: flex;
+    padding: 40px;
+    box-sizing: border-box;
+    align-items: left;
+    justify-content: left;
+    direction: rtl;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 5;
+}
+.inp1{
+    position: relative;
+    margin-top: 15px;
+    float: right;
+    top: 9px;
+    width: 54%;
+    height: 45px;
+    margin-right: 3%;
+    border: 1px #e6e0e0 solid;
+    border-radius: 50px;
+    font-family: 'Iranian Sans';
+}
+
+ 
+.fa-search{
+    margin-top: 15px;
+    color: rgb(5, 134, 102);
+    width:40px;
+    height: 40px;
+    float: left;
+    margin-left: -10px;
+}
+
+.img-search{
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    padding: 5px;
+    margin-top: 4px;
+    font-weight: 100;
+    margin-left: 0px;
+    margin-right: -25px;
+}
+
+.nav1{
+    text-align: right;
+    position: relative;
+    direction: rtl;
+    top: 99px;
+    width: 58%;
+    height: 45px;
+    border-top: 1px #e6e0e0 solid;
+    font-size: 20px;
+
+}
+#a2{
+    color: rgb(58, 153, 182);
+    text-align: right;
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold; 
+
+}
+#a2:hover{
+    color: rgb(58, 153, 182);
+    border-bottom:3px solid rgb(58, 153, 182);
+    padding: 10px;
+}
+.a2{
+    color: #303030;
+    text-align: center;
+    width: auto;
+    height: auto;
+    font-weight: bold; 
+    display: inline-block;
+    font-size: 12px;
+    transition-delay: .4s;
+    direction: rtl;
+    text-decoration: none;
+    padding: 5px;;
+}
+
+.a2:hover{
+    color: teal;
+    border-bottom:3px solid #64C59B;
+    padding: 10px;
+}
+.fa-play-circle{
+   size: 20px;
+}
+.login{
+    font-size: 12px;
+    direction: rtl;
+    padding: 2px;
+    text-align: center;
+    width: 120px;
+    height: 25px;
+    border:0.5px solid rgb(218, 210, 210);
+    border-radius: 5px;
+    text-decoration: none;
+    color: rgb(5, 134, 102);
+    float: left;
+    margin-right: 50px;
+    margin-top: -90px;
+    font-family: 'Iranian Sans';
+    box-sizing: inherit;
+}
+.fa-lock:hover{
+background-color: red;
+}
+.sign-up{
+    padding: 1px;
+    box-sizing: inherit;
+    direction: rtl;
+    background-color: rgb(5, 134, 102);
+    font-family: 'Iranian Sans';
+    border:0.5px solid rgb(218, 210, 210);
+    border-radius: 5px;
+    font-size: 12px;
+    text-align: center;
+    width: 120px;
+    height: 30px;
+    text-decoration: none;
+    color: white;
+    float: left;
+    margin-left: 3px;
+    margin-top: -55px;
+   
+}
+.comment{
+    direction: rtl;
+    padding: 2px;
+    font-family: 'Iranian Sans';
+    border-radius: 5px;
+    font-size: 12px;
+    text-align: center;
+    width: 40px;
+    height: 45px;
+    text-decoration: none;
+    color: red;
+    float: left;
+    margin-left: -50px;
+    margin-top: 85px;
+   
+}
+.content{
+    background-color: hsl(185, 64%, 92%);
+    width:100.5%;
+    height: 350%;
+    margin-top:155px;
+    margin-right: 5px;
+}
+.firstimg{
+    position: absolute;
+    top: 5;
+    right: 25%;
+    width: 50%;
+    height: 101%;
+    background: rgba(0, 0, 0, .6);
+    transition: all ease-in-out .3s;
+}
+ .firstimg::after {
+    content: "55555";
+    position: absolute;
+    width: 101%;
+    height: 101%;
+    opacity: 0;
+    transition: all 0.7s ease 0s;
+}
+
+
+.img2{
+    position: absolute;
+    top: 5;
+    left:5px;
+    width: 24.5%;
+    height: 50%;
+    background: rgba(0, 0, 0, .6);
+    transition: all ease-in-out .3s;
+}
+.img3{
+    position: absolute;
+    top: 52%;
+    left:5px;
+    width: 24.5%;
+    height: 50%;
+    background: rgba(0, 0, 0, .6);
+    transition: all ease-in-out .3s;
+}
+.img5{
+    position: absolute;
+    top:5px;
+    right:5px;
+    width: 24.5%;
+    height: 50%;
+    background: rgba(0, 0, 0, .6);
+    transition: all ease-in-out .3s;
+}
+.img6{
+    position: absolute;
+    top: 52%;
+    right:5px;
+    width: 24.5%;
+    height: 50%;
+    background: rgba(0, 0, 0, .6);
+    transition: all ease-in-out .3s;
+}
+
+.dvideo{
+    width: 25%;
+    height: 25%;
+    border:1px solid #303030;
+    float: right;
+    margin-top: 620px;
+    background-color: white;
+
+}
+.images{
+    position: absolute;
+    top: 160;
+    width: 99%;
+    right: 10px;
+    height: 70%;
+    background: white;
+    transition: all ease-in-out .3s;
+}
+
+
+
+.Karnavali{
+    border: 0.8px solid rgb(211, 209, 209);
+    box-shadow: #9b9999;
+    margin: 10px 5px 8px 5px ;    
+    position: relative;
+    top:535px;
+    max-width: 100%;
+    width: 99%;
+}
+.sidebar{
+    box-sizing: inherit;
+    width: 353px;
+    height: 254px;
+    float:right;
+    margin-top: -1885px;
+    background-color: white;
+    margin-right: 5px;
+    box-shadow: 1px 1px 1px 1px #b3adad ;
+    
+}
+.pside{
+    color: rgb(5, 134, 102);
+    border-right: 5px solid rgb(5, 134, 102);
+    border-bottom: 1px solid rgb(5, 134, 102);
+    font-size: 11px;
+    font-family: 'Iranian Sans';
+    width: 80%;
+    float:right;
+    margin-right: 15px;
+    text-align: right;
+    font-weight:bold ;
+    padding-right: 10px;
+    padding-top:5px ;
+    margin-right: 30px;
+
+}
+#sidebar{
+    box-sizing: inherit;
+    width: 353px;
+    height: 1135px;
+    float:right;
+    margin-top: -1625px;
+    background-color: white;
+    margin-right: 5px;
+    box-shadow: 1px 1px 1px 1px #b3adad ;
+}
+.fa-telegram{
+ border:1px solid #9b9999;
+ border-radius: 10px;
+ float: right;
+ margin-right: 270px;
+ margin-top: 20px;
+}
+.fa-facebook-f{
+    border-radius: 10px;
+    border:1px solid #9b9999;
+    float: left;
+    margin-left: 450px;
+    margin-top: 20px;
+   }
+   .fa-google-plus-g{
+    border:1px solid #9b9999;
+    float: left;
+    margin-left: -110px;
+    margin-top: 20px;
+   }
+   .fa-twitter{
+    border:1px solid #9b9999;
+    float: left;
+    margin-left: -60px;
+    margin-top: 20px;
+   }
+#left-sidebar{
+    box-sizing: inherit;
+    width: 220px;
+    height: 1200px;
+    float:left;
+    margin-top: -1885px;
+    background-color: white;
+    margin-left: 5px;
+    padding-top: 5px;   
+    box-shadow: 1px 1px 1px 1px #b3adad ;
+}
+
+.imgmain{
+    box-sizing: inherit;
+    width: 907px;
+    height: 935px;
+    float:right;
+    margin-top: -1887px;
+    background-color: white;
+    margin-right: 365px;
+    box-shadow: 1px 1px 1px 1px #b3adad ;
+}
+
+#main-img:hover{
+    filter: contrast(120%) brightness(97%);
+}
+#a-main{
+       font-size: 10px;        color: rgb(255, 255, 255);
+        display: inline-block; line-height: 1.4;
+        text-align: center;    border-radius: 0px;
+        padding: 9px 13px;     background: rgb(53, 185, 149);
+        border-width: 0px;     border-style: initial;
+        border-color: initial; border-image: initial;
+       text-decoration: none;  float: right;
+       margin-right: 350px;    margin-top: 10px; font-weight: bolder; 
+}
+#a-main:hover{
+opacity:0.8;
+background-color: rgb(7, 72, 105);
+}
+.imgside{
+    padding: 5px;
+    float:right;
+    width:85%;
+    height: 205px;
+    margin-top:-5px;
+    margin-right: 20px;
+
+}
+.imgside:hover{
+    filter: contrast(120%) brightness(97%);
+}
+.pside2{
+    margin-top:10px;
+    color: rgb(5, 134, 102);
+    border-right: 5px solid rgb(5, 134, 102);
+    border-bottom: 1px solid rgb(5, 134, 102);
+    font-size: 11px;
+    font-family: 'Iranian Sans';
+    width: 80%;
+    float:right;
+    margin-right: 20px;
+    text-align: right;
+    font-weight:bold ;
+    padding-right: 8px;
+    padding-top:10px ;
+}
+.pside3{
+    color:rgb(77, 111, 170) !important;
+    border-right: 5px solid rgb(77, 111, 170);
+    border-bottom: 1px solid rgb(77, 111, 170);
+    font-size: 12px;
+    font-family: 'Iranian Sans';
+    width: 80%;
+    float:right;
+    margin-right: 20px;
+    text-align: right;
+    font-weight:bold ;
+    padding-right: 8px;
+    padding-top:5px ;
+}
+.imgside1{
+    margin-bottom: 20px;
+    float:right;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+.imgside1:hover{
+    filter: contrast(120%) brightness(97%);
+}
+.p1{
+    color: #35b995;
+    border-bottom: 1px solid #35b995;
+    font-size: 9px;
+    font-family: 'Iranian Sans';
+    width: 15%;
+    float:right;
+    margin-right: 10px;
+    text-align: right;
+    font-weight:bold ;
+    padding-top:5px ;
+    padding: 5px;
+}
+.sp1{
+    color: #394441;
+    font-size: 10px;
+    font-family: 'Iranian Sans';
+    width: 30%;
+    float:right;
+    margin-right: 10px;
+    margin-top:18px;
+    text-align: right;
+    font-weight:bold ;
+    padding-top:5px ;
+    padding: 5px;
+}
+.sp2{
+    color: #959b99;
+    font-size: 11px;
+    font-family: 'Iranian Sans';
+    width: 30%;
+    float:right;
+    margin-right: 10px;
+    margin-top:35px;
+    text-align: right;
+    font-weight:bold ;
+    padding-top:5px ;
+    padding: 5px;
+    font-family:B Yekan !important;
+    }
+.imgside2{
+    float:right;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.imgside2:hover{
+    filter: contrast(120%) brightness(97%);
+}
+#tamasha{
+    margin-left: 350px;
+    margin-top:-30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-family: 'Iranian Sans';
+    display: inline-block;
+    z-index: 1000000;
+    color: rgb(255, 255, 255);
+    border-width: 4px;
+    border-style: double;
+    border-color: rgb(255, 255, 255);
+    border-image: initial;
+    padding: 10px 20px;
+    background-color: rgb(53, 185, 149);
+}
+#tamasha:hover {
+    background-color: rgb(7, 72, 105);
+}
+.profile{
+    margin-right: -5px;
+    float: right;
+    margin-top: -35px;
+    width:35px;
+    height: 35px;
+    border-radius: 120px;
+    border-width: 0px;
+
+}
+.left-imgside2:hover{
+    filter: contrast(120%) brightness(97%);
+}
+.left-imgside3:hover{
+    filter: contrast(120%) brightness(97%);
+}
+.p2{
+    color: #35b995;
+    border-bottom: 1px solid #35b995;
+    font-size: 9px;
+    font-family: 'Iranian Sans';
+    width: 15%;
+    float:right;
+    margin-right: 10px;
+    text-align: right;
+    font-weight:bold ;
+    padding-top:5px ;
+    padding: 5px;
+}
+.sp3{
+    color: #394441;
+    font-size: 10px;
+    font-family: 'Iranian Sans';
+    width: 30%;
+    float:right;
+    margin-right: 10px;
+    margin-top:18px;
+    text-align: right;
+    font-weight:bold ;
+    padding-top:5px ;
+    padding: 5px;
+}
+.sp4{
+    color: #959b99;
+    font-size: 11px;
+    font-family: 'Iranian Sans';
+    width: 30%;
+    float:right;
+    margin-right: 10px;
+    margin-top:35px;
+    text-align: right;
+    font-weight:bold ;
+    padding-top:5px ;
+    padding: 5px;
+    font-family:B Yekan !important;
+}
+.imgside3{
+
+    float:right;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+
+}
+.imgside3:hover{
+    filter: contrast(120%) brightness(97%);
+}
+.p3{
+    color: #35b995;
+    border-bottom: 1px solid #35b995;
+    font-size: 9px;
+    font-family: 'Iranian Sans';
+    width: 15%;
+    float:right;
+    margin-right: 10px;
+    text-align: right;
+    font-weight:bold ;
+    padding-top:5px ;
+    padding: 5px;
+}
+.sp5{
+    color: #394441;
+    font-size: 10px;
+    font-family: 'Iranian Sans';
+    width: 30%;
+    float:right;
+    margin-right: 10px;
+    margin-top:18px;
+    text-align: right;
+    font-weight:bold ;
+    padding-top:5px ;
+    padding: 5px;
+}
+.sp6{
+    color: #959b99;
+    font-size: 11px;
+    font-family: 'Iranian Sans';
+    width: 30%;
+    float:right;
+    margin-right: 10px;
+    margin-top:35px;
+    text-align: right;
+    font-weight:bold ;
+    padding-top:5px ;
+    padding: 5px;
+    font-family:B Yekan !important;
+}
+
+#goup{
+    width: 50px;
+    height: 50px;
+    float: right;
+    right: 0px;
+    bottom:50px;
+    margin-top:160px;
+}
+#goup:hover{
+   opacity: 0.5;
+}
+         
